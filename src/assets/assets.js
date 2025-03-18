@@ -6,6 +6,7 @@ import nigeria_icon from "./top 50 nigeria.jpeg";
 import uk_icon from "./top 50 uk.jpeg";
 import usa_icon from "./top 50 usa.jpeg";
 import top_songs from "./top songs usa.jpeg";
+import top_artists from "./top artists usa.jpeg";
 
 export const assets = {
   three_icon,
@@ -16,4 +17,5 @@ export const assets = {
   uk_icon,
   usa_icon,
   top_songs,
+  top_artists,
 };
