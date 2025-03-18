@@ -5,4 +5,11 @@ import global_icon from "./top 50 global.jpeg";
 import nigeria_icon from "./top 50 nigeria.jpeg";
 import uk_icon from "./top 50 uk.jpeg";
 
-export const assets = {};
+export const assets = {
+  three_icon,
+  smile_icon,
+  today_icon,
+  global_icon,
+  nigeria_icon,
+  uk_icon,
+};
