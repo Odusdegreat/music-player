@@ -22,18 +22,21 @@ export const assets = {
 export const albumsData = [
   {
     id: 0,
-    name: "./3.jpg",
+    name: "Favorite playlist",
+    image: "./3.jpg",
     desc: "Your weekly update of the most played tracks",
     bgColor: "#2a4365",
   },
   {
     id: 1,
-    name: "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3",
+    name: "atlxs",
     image: "./passo bem solto.jpeg",
     desc: "Your most played tracks",
     bgColor: "#2a4",
   },
   {
     id: 2,
+    name: "smiling",
+    image: "./smile.jpeg",
   },
 ];
