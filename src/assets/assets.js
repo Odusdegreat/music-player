@@ -38,5 +38,28 @@ export const albumsData = [
     id: 2,
     name: "smiling",
     image: "./smile.jpeg",
+    desc: "Your most played tracks",
+    bgColor: "#2fcdef",
+  },
+  {
+    id: 3,
+    name: "today's top hit",
+    image: "./today's top hit.jpeg",
+    desc: "The most played song today",
+    bgColor: "#FF0000",
+  },
+  {
+    id: 4,
+    name: "top 50 global",
+    image: "./top 50 global.jpeg",
+    desc: "The top 50 global songs",
+    bgColor: "#000000",
+  },
+  {
+    id: 5,
+    name: "top 50 nigeria",
+    image: "./top 50 nigeria.jpeg",
+    desc: "The top 50 nigeria songs",
+    bgColor: "#FF00FF",
   },
 ];
