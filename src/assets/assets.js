@@ -19,3 +19,21 @@ export const assets = {
   solto_icon,
   atlxs,
 };
+export const albumsData = [
+  {
+    id: 0,
+    name: "./3.jpg",
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#2a4365",
+  },
+  {
+    id: 1,
+    name: "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3",
+    image: "./passo bem solto.jpeg",
+    desc: "Your most played tracks",
+    bgColor: "#2a4",
+  },
+  {
+    id: 2,
+  },
+];
