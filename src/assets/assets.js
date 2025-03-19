@@ -62,4 +62,18 @@ export const albumsData = [
     desc: "The top 50 nigeria songs",
     bgColor: "#FF00FF",
   },
+  {
+    id: 6,
+    name: "top 50 uk",
+    image: "./top 50 uk.jpeg",
+    desc: "The top 50 uk songs",
+    bgColor: "#FFFF00",
+  },
+  {
+    id: 7,
+    name: "top 50 usa",
+    image: "./top 50 usa.jpeg",
+    desc: "The top 50 usa songs",
+    bgColor: "#0000FF",
+  },
 ];
