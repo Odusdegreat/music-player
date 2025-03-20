@@ -83,8 +83,9 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
-    name: "who does that",
+    name: "fola, bella shmurda",
     image: "./who does that.jpeg",
+    desc: "who does that",
     duration: "2:40",
   },
   {
