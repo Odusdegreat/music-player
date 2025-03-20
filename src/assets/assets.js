@@ -7,6 +7,7 @@ import uk_icon from "./top 50 uk.jpeg";
 import usa_icon from "./top 50 usa.jpeg";
 import solto_icon from "./passo bem solto.jpeg";
 import atlxs from "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3";
+import who_icon from "./who does that.jpeg";
 
 export const assets = {
   three_icon,
@@ -18,13 +19,14 @@ export const assets = {
   usa_icon,
   solto_icon,
   atlxs,
+  who_icon,
 };
 export const albumsData = [
   {
     id: 0,
     name: "Favorite playlist",
     image: "./3.jpg",
-    desc: "Your weekly update of the most played tracks",
+    desc: "The weekly update of your most played tracks",
     bgColor: "#2a4365",
   },
   {
@@ -75,5 +77,20 @@ export const albumsData = [
     image: "./top 50 usa.jpeg",
     desc: "The top 50 usa songs",
     bgColor: "#0000FF",
+  },
+];
+
+export const songsData = [
+  {
+    id: 0,
+    name: "who does that",
+    image: "./who does that.jpeg",
+    duration: "2:40",
+  },
+  {
+    id: 1,
+    name: "atlxs",
+    image: "./passo bem solto.jpeg",
+    duration: "1:54",
   },
 ];
