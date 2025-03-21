@@ -8,6 +8,7 @@ import usa_icon from "./top 50 usa.jpeg";
 import solto_icon from "./passo bem solto.jpeg";
 import atlxs from "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3";
 import who_icon from "./who does that.jpeg";
+import home_icon from "./home.jpeg";
 
 export const assets = {
   three_icon,
@@ -20,6 +21,7 @@ export const assets = {
   solto_icon,
   atlxs,
   who_icon,
+  home_icon,
 };
 export const albumsData = [
   {
@@ -77,6 +79,13 @@ export const albumsData = [
     image: "./top 50 usa.jpeg",
     desc: "The top 50 usa songs",
     bgColor: "#0000FF",
+  },
+  {
+    id: 8,
+    name: "home icon",
+    image: "./home icon.jpeg",
+    desc: "home",
+    bgColor: "#000000",
   },
 ];
 
