@@ -11,6 +11,8 @@ import who_icon from "./who does that.jpeg";
 import home_icon from "./home.jpeg";
 import search_icon from "./search.jpeg";
 import stack_icon from "./stack.jpeg";
+import arrow_icon from "./arrow.jpeg";
+import plus_icon from "./plus.jpeg";
 
 export const assets = {
   three_icon,
@@ -26,6 +28,8 @@ export const assets = {
   home_icon,
   search_icon,
   stack_icon,
+  arrow_icon,
+  plus_icon,
 };
 export const albumsData = [
   {
