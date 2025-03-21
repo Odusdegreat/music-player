@@ -9,6 +9,8 @@ import solto_icon from "./passo bem solto.jpeg";
 import atlxs from "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3";
 import who_icon from "./who does that.jpeg";
 import home_icon from "./home.jpeg";
+import search_icon from "./search.jpeg";
+import stack_icon from "./stack.jpeg";
 
 export const assets = {
   three_icon,
@@ -22,6 +24,8 @@ export const assets = {
   atlxs,
   who_icon,
   home_icon,
+  search_icon,
+  stack_icon,
 };
 export const albumsData = [
   {
