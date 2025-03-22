@@ -7,7 +7,7 @@ import uk_icon from "./top 50 uk.jpeg";
 import usa_icon from "./top 50 usa.jpeg";
 import solto_icon from "./passo bem solto.jpeg";
 import atlxs from "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3";
-import who_icon from "./who does that.jpeg";
+import who from "./who does that.jpeg";
 import home_icon from "./home.jpeg";
 import search_icon from "./search.jpeg";
 import stack_icon from "./stack.jpeg";
@@ -24,7 +24,7 @@ export const assets = {
   usa_icon,
   solto_icon,
   atlxs,
-  who_icon,
+  who,
   home_icon,
   search_icon,
   stack_icon,
@@ -100,15 +100,16 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
-    name: "fola, bella shmurda",
-    image: "./who does that.jpeg",
-    desc: "who does that",
+    name: "who does that? (feat. Bella shmurda)",
+    desc: "FOLA, Bella shmurda",
+    image: "/src/assets/who does that.jpeg",
     duration: "2:40",
   },
   {
     id: 1,
     name: "atlxs",
-    image: "./passo bem solto.jpeg",
+    desc: "passo bem solto",
+    image: "./who does that.jpeg",
     duration: "1:54",
   },
 ];
