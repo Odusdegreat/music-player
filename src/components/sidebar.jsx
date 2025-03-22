@@ -26,7 +26,7 @@ const Sidebar = () => {
           </div>
           <div className="flex items-center gap-3">
             <HiOutlinePlus size={25} />
-            <IoIosArrowRoundForward size={30} />
+            <IoIosArrowRoundForward size={40} />
           </div>
         </div>
         <div className="p-4 bg-[#242424] m-2 rounded font-semibold flex flex-col items-start justify-start gap-1 pl-4">

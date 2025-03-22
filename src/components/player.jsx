@@ -11,6 +11,7 @@ import { HiOutlineQueueList } from "react-icons/hi2";
 import { LuMonitorSpeaker } from "react-icons/lu";
 import { TbVolume } from "react-icons/tb";
 import { CgMiniPlayer } from "react-icons/cg";
+import { MdOutlineZoomOutMap } from "react-icons/md";
 
 const player = () => {
   return (
@@ -46,6 +47,7 @@ const player = () => {
         <TbVolume size={25} />
         <div className="w-20 bg-slate-50 h-1 rounded" />
         <CgMiniPlayer size={25} />
+        <MdOutlineZoomOutMap size={25} />
       </div>
     </div>
   );
