@@ -11,6 +11,9 @@ const player = () => {
           <p>{songsData[0].desc.slice(0, 12)}</p>
         </div>
       </div>
+      <div className="flex flex-col items-center gap-1 m-auto">
+        <div className="flex gap-4"></div>
+      </div>
     </div>
   );
 };

@@ -13,6 +13,7 @@ import search_icon from "./search.jpeg";
 import stack_icon from "./stack.jpeg";
 import arrow_icon from "./arrow.jpeg";
 import plus_icon from "./plus.jpeg";
+import shuffle_icon from "./shuffle.jpeg";
 
 export const assets = {
   three_icon,
@@ -30,6 +31,7 @@ export const assets = {
   stack_icon,
   arrow_icon,
   plus_icon,
+  shuffle_icon,
 };
 export const albumsData = [
   {
