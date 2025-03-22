@@ -10,6 +10,7 @@ import { TbMicrophone2 } from "react-icons/tb";
 import { HiOutlineQueueList } from "react-icons/hi2";
 import { LuMonitorSpeaker } from "react-icons/lu";
 import { TbVolume } from "react-icons/tb";
+import { CgMiniPlayer } from "react-icons/cg";
 
 const player = () => {
   return (
@@ -43,6 +44,8 @@ const player = () => {
         <HiOutlineQueueList size={25} />
         <LuMonitorSpeaker size={25} />
         <TbVolume size={25} />
+        <div className="w-20 bg-slate-50 h-1 rounded" />
+        <CgMiniPlayer size={25} />
       </div>
     </div>
   );
