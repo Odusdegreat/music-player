@@ -14,7 +14,10 @@ import stack_icon from "./stack.jpeg";
 import arrow_icon from "./arrow.jpeg";
 import plus_icon from "./plus.jpeg";
 import shuffle_icon from "./shuffle.jpeg";
-
+import previous_icon from "./previous.jpeg";
+import foward_icon from "./foward.jpeg";
+import play_icon from "./play.jpeg";
+import loop_icon from "./loop.jpeg";
 export const assets = {
   three_icon,
   smile_icon,
@@ -32,6 +35,10 @@ export const assets = {
   arrow_icon,
   plus_icon,
   shuffle_icon,
+  previous_icon,
+  foward_icon,
+  play_icon,
+  loop_icon,
 };
 export const albumsData = [
   {
