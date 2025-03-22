@@ -8,6 +8,8 @@ import { PiShuffleLight } from "react-icons/pi";
 import { LuSquarePlay } from "react-icons/lu";
 import { TbMicrophone2 } from "react-icons/tb";
 import { HiOutlineQueueList } from "react-icons/hi2";
+import { LuMonitorSpeaker } from "react-icons/lu";
+import { TbVolume } from "react-icons/tb";
 
 const player = () => {
   return (
@@ -38,6 +40,9 @@ const player = () => {
       <div className="hidden lg:flex items-center gap-2 opacity-75">
         <LuSquarePlay size={25} />
         <TbMicrophone2 size={25} />
+        <HiOutlineQueueList size={25} />
+        <LuMonitorSpeaker size={25} />
+        <TbVolume size={25} />
       </div>
     </div>
   );
