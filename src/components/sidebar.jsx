@@ -1,5 +1,5 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import {} from "../assets/assets";
 import { GoHome } from "react-icons/go";
 import { CiSearch } from "react-icons/ci";
 import { LuLibraryBig } from "react-icons/lu";
