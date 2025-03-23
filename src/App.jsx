@@ -2,7 +2,7 @@ import React from "react";
 import Sidebar from "./components/Sidebar";
 import Player from "./components/Player";
 import Display from "./components/Display";
-import NavBar from "./components/NavBar";
+
 const App = () => {
   return (
     <div className="h-screen bg-black">
@@ -11,7 +11,6 @@ const App = () => {
         <Display />
       </div>
       <Player />
-      <NavBar />
     </div>
   );
 };

@@ -23,6 +23,7 @@ const NavBar = () => {
           <p className="bg-black py-1 px-3 rounded-2xl text-[15px] cursor-pointer">
             Install App
           </p>
+          <p className=""></p>
         </div>
       </div>
     </>
