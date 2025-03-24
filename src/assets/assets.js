@@ -86,14 +86,14 @@ export const albumsData = [
   {
     id: 6,
     name: "Top 50 United Kingdom",
-    image: "./top 50 uk.jpeg",
+    image: uk,
     desc: "The top 50 UK songs",
     bgColor: "#FFFF00",
   },
   {
     id: 7,
     name: "Top 50 USA",
-    image: "./top 50 usa.jpeg",
+    image: usa,
     desc: "The top 50 USA songs",
     bgColor: "#0000FF",
   },
