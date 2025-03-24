@@ -4,7 +4,6 @@ import global from "./top 50 global.jpeg";
 import nigeria from "./top 50 nigeria.jpeg";
 import uk from "./top 50 uk.jpeg";
 import usa from "./top 50 usa.jpeg";
-import solto from "./passo bem solto.jpeg";
 import atlxs from "./ATLXS - PASSO BEM SOLTO (SLOWED).mp3";
 import who from "./who does that.jpeg";
 import home_icon from "./home.jpeg";
@@ -24,7 +23,6 @@ export const assets = {
   nigeria,
   uk,
   usa,
-  solto,
   atlxs,
   who,
   home_icon,
@@ -46,29 +44,23 @@ export const albumsData = [
     desc: "The top 50 UK songs",
     bgColor: "#FFFF00",
   },
+
   {
     id: 1,
-    name: "atlxs",
-    image: solto,
-    desc: "Your most played track",
-    bgColor: "#2a4",
-  },
-  {
-    id: 2,
     name: "Your Playlist",
     image: smile,
     desc: "Your most played tracks",
     bgColor: "#2fcdef",
   },
   {
-    id: 3,
+    id: 2,
     name: "Today's top hit",
     image: today,
     desc: "The most played song today",
     bgColor: "#FF0000",
   },
   {
-    id: 4,
+    id: 3,
     name: "Top 50 global",
     image: global,
     desc: "The top 50 Global songs",
