@@ -1,4 +1,3 @@
-import three from "./3.jpg";
 import smile from "./smile.jpeg";
 import today from "./today's top hit.jpeg";
 import global from "./top 50 global.jpeg";
@@ -19,7 +18,6 @@ import foward_icon from "./foward.jpeg";
 import play_icon from "./play.jpeg";
 import loop_icon from "./loop.jpeg";
 export const assets = {
-  three,
   smile,
   today,
   global,
@@ -43,10 +41,10 @@ export const assets = {
 export const albumsData = [
   {
     id: 0,
-    name: "Favorite playlist",
-    image: three,
-    desc: "The weekly update of your most played tracks",
-    bgColor: "#2a4365",
+    name: "Top 50 United Kingdom",
+    image: uk,
+    desc: "The top 50 UK songs",
+    bgColor: "#FFFF00",
   },
   {
     id: 1,
@@ -83,15 +81,9 @@ export const albumsData = [
     desc: "The top 50 Nigeria songs",
     bgColor: "#FF00FF",
   },
+
   {
     id: 6,
-    name: "Top 50 United Kingdom",
-    image: uk,
-    desc: "The top 50 UK songs",
-    bgColor: "#FFFF00",
-  },
-  {
-    id: 7,
     name: "Top 50 USA",
     image: usa,
     desc: "The top 50 USA songs",
