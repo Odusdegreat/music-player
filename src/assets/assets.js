@@ -98,7 +98,7 @@ export const songsData = [
     id: 1,
     name: "passo bem solto",
     desc: "Atlxs",
-    image: who,
+    image: atlxs,
     duration: "1:54",
   },
   {
