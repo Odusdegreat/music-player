@@ -16,6 +16,7 @@ import previous_icon from "./previous.jpeg";
 import foward_icon from "./foward.jpeg";
 import play_icon from "./play.jpeg";
 import loop_icon from "./loop.jpeg";
+
 export const assets = {
   smile,
   today,
@@ -88,14 +89,14 @@ export const songsData = [
     id: 0,
     name: "who does that? (feat. Bella shmurda)",
     desc: "FOLA, Bella shmurda",
-    image: "/src/assets/who does that.jpeg",
+    image: who,
     duration: "2:40",
   },
   {
     id: 1,
-    name: "atlxs",
-    desc: "passo bem solto",
-    image: "./who does that.jpeg",
+    name: "passo bem solto",
+    desc: "Atlxs",
+    image: who,
     duration: "1:54",
   },
 ];
