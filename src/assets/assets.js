@@ -16,6 +16,7 @@ import previous_icon from "./previous.jpeg";
 import foward_icon from "./foward.jpeg";
 import play_icon from "./play.jpeg";
 import loop_icon from "./loop.jpeg";
+import travis from "./travis.jpeg";
 
 export const assets = {
   smile,
@@ -36,6 +37,7 @@ export const assets = {
   foward_icon,
   play_icon,
   loop_icon,
+  travis,
 };
 export const albumsData = [
   {
@@ -98,5 +100,12 @@ export const songsData = [
     desc: "Atlxs",
     image: who,
     duration: "1:54",
+  },
+  {
+    id: 2,
+    name: "4X4",
+    desc: "Travis Scott",
+    image: travis,
+    duration: "3:10",
   },
 ];
