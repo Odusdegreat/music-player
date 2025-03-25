@@ -17,6 +17,7 @@ import foward_icon from "./foward.jpeg";
 import play_icon from "./play.jpeg";
 import loop_icon from "./loop.jpeg";
 import travis from "./travis.jpeg";
+import passo from "./passo bem solto.jpeg";
 
 export const assets = {
   smile,
@@ -38,6 +39,7 @@ export const assets = {
   play_icon,
   loop_icon,
   travis,
+  passo,
 };
 export const albumsData = [
   {
@@ -98,7 +100,7 @@ export const songsData = [
     id: 1,
     name: "passo bem solto",
     desc: "Atlxs",
-    image: atlxs,
+    image: passo,
     duration: "1:54",
   },
   {
