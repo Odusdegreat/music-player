@@ -20,6 +20,8 @@ const DisplayAlbum = () => {
           <h4>{albumData.desc}</h4>
           <p className="mt-1">
             <SlSocialSpotify className="inline-block w-5" />
+            <b> Spotify</b> • 1,323,154 likes • <b>50 songs,</b>
+            about 2 hr 30 min
           </p>
         </div>
       </div>
