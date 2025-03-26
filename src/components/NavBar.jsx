@@ -11,12 +11,12 @@ const NavBar = () => {
         <div className="flex items-center gap-2">
           <SlArrowLeft
             size={25}
-            onClick={() => navigate}
+            onClick={() => navigate(-1)}
             className="w-8 bg-black p-2 rounded-2xl cursor-pointer"
           />
           <SlArrowRight
             size={25}
-            onClick={() => navigate}
+            onClick={() => navigate(1)}
             className="w-8 bg-black p-2 rounded-2xl cursor-pointer"
           />
         </div>
