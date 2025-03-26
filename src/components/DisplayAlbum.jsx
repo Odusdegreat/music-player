@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import { useParams } from "react-router-dom";
 import { albumsData } from "../assets/assets";
 import { SlSocialSpotify } from "react-icons/sl";
+import { FaRegClock } from "react-icons/fa";
 const DisplayAlbum = () => {
   const { id } = useParams();
   const albumData = albumsData[id];
@@ -30,6 +31,8 @@ const DisplayAlbum = () => {
           <b className="mr-4">#</b>Title
         </p>
         <p>Album</p>
+        <p className="hidden sm:block">Date Added</p>
+        <FaRegClock />
       </div>
     </>
   );
