@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { albumsData } from "../assets/assets";
 import { SlSocialSpotify } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
+import { songsData } from "../assets/assets";
 const DisplayAlbum = () => {
   const { id } = useParams();
   const albumData = albumsData[id];
