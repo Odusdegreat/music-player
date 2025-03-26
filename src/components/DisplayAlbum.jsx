@@ -32,7 +32,7 @@ const DisplayAlbum = () => {
         </p>
         <p>Album</p>
         <p className="hidden sm:block">Date Added</p>
-        <FaRegClock />
+        <FaRegClock className="m-auto w-4" />
       </div>
     </>
   );
