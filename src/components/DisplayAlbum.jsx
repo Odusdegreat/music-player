@@ -5,13 +5,13 @@ import { albumsData } from "../assets/assets";
 
 const DisplayAlbum = () => {
   const { id } = useParams();
-  const albumsData = albumsData[id];
-  console.log(albumsData);
+  const albumData = albumsData[id];
+
   return (
     <>
       <NavBar />
       <div className="mt-10 flex gap-8 flex-col md:flex-row md:items-end">
-        <img src="" alt="" />
+        <img src={albumData.image} alt="" />
       </div>
     </>
   );
