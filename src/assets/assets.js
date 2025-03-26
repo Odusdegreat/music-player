@@ -72,7 +72,7 @@ export const albumsData = [
     bgColor: "#000000",
   },
   {
-    id: 5,
+    id: 4,
     name: "Top 50 Nigeria",
     image: nigeria,
     desc: "The top 50 Nigeria songs",
@@ -80,7 +80,7 @@ export const albumsData = [
   },
 
   {
-    id: 6,
+    id: 5,
     name: "Top 50 USA",
     image: usa,
     desc: "The top 50 USA songs",
