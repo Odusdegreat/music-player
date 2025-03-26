@@ -6,6 +6,7 @@ import DisplayAlbum from "./DisplayAlbum";
 const Display = () => {
   const displayRef = useRef();
   const location = useLocation();
+  console.log(location);
 
   return (
     <div
