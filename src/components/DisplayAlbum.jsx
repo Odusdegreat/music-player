@@ -19,7 +19,7 @@ const DisplayAlbum = () => {
           </h2>
           <h4>{albumData.desc}</h4>
           <p className="mt-1">
-            <SlSocialSpotify />
+            <SlSocialSpotify className="inline-block w-5" />
           </p>
         </div>
       </div>
