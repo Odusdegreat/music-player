@@ -1,7 +1,12 @@
 import React from "react";
+import NavBar from "./NavBar";
 
 const DisplayAlbum = () => {
-  return <div>DisplayAlbum</div>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 };
 
 export default DisplayAlbum;
