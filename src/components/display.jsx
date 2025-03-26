@@ -1,10 +1,11 @@
 import React, { useRef } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import DisplayHome from "./DisplayHome";
 import DisplayAlbum from "./DisplayAlbum";
 
 const Display = () => {
   const displayRef = useRef();
+  const location = useLocation();
 
   return (
     <div
