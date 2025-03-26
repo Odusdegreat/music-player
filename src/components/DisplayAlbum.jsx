@@ -10,7 +10,9 @@ const DisplayAlbum = () => {
   return (
     <>
       <NavBar />
-      <div className="mt-10 flex gap-8 flex-col"></div>
+      <div className="mt-10 flex gap-8 flex-col md:flex-row md:items-end">
+        <img src="" alt="" />
+      </div>
     </>
   );
 };
