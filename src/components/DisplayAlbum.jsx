@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import { useParams } from "react-router-dom";
 import { albumsData } from "../assets/assets";
-
+import { SlSocialSpotify } from "react-icons/sl";
 const DisplayAlbum = () => {
   const { id } = useParams();
   const albumData = albumsData[id];
@@ -18,6 +18,9 @@ const DisplayAlbum = () => {
             {albumData.name}
           </h2>
           <h4>{albumData.desc}</h4>
+          <p className="mt-1">
+            <SlSocialSpotify />
+          </p>
         </div>
       </div>
     </>
