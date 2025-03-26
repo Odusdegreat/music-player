@@ -34,6 +34,10 @@ const DisplayAlbum = () => {
         <p className="hidden sm:block">Date Added</p>
         <FaRegClock className="m-auto w-4" />
       </div>
+      <hr />
+      {songsData.map((item, index) => (
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-#[#ffffff2b] cursor-pointer"></div>
+      ))}
     </>
   );
 };
