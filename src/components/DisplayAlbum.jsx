@@ -14,7 +14,10 @@ const DisplayAlbum = () => {
         <img className="w-48 rounded" src={albumData.image} alt="" />
         <div className="flex flex-col">
           <p>Playlist</p>
-          <h2>{albumData}</h2>
+          <h2 className="text-5xl font-bold mb-4 md:text-7xl">
+            {albumData.name}
+          </h2>
+          <h4>{albumData.desc}</h4>
         </div>
       </div>
     </>
