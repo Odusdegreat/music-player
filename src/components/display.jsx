@@ -7,7 +7,7 @@ const Display = () => {
   const displayRef = useRef();
   const location = useLocation();
   console.log(location);
-  const isAlbum
+  const isAlbum = location.pathname.includes("album");
 
   return (
     <div
