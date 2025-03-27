@@ -7,6 +7,7 @@ const Display = () => {
   const displayRef = useRef();
   const location = useLocation();
   console.log(location);
+  const isAlbum
 
   return (
     <div
