@@ -4,5 +4,9 @@ const Player = createContext();
 
 const PlayerContextProvider = () => {
   const contextValue = {};
-  return <PlayerContext.Provider>{props.children}</PlayerContext.Provider>;
+  return (
+    <PlayerContext.Provider value={contextValue}>
+      {props.children}
+    </PlayerContext.Provider>
+  );
 };
