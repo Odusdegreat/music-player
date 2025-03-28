@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import DisplayHome from "./DisplayHome";
 import DisplayAlbum from "./DisplayAlbum";
@@ -14,6 +14,12 @@ const Display = () => {
   console.log(albumId);
   const bgColor = albumsData[Number(albumId)].bgColor;
   console.log(bgColor);
+
+  useEffect(() => {
+    if (isAlbum) {
+      displayRef.current.style.back;
+    }
+  });
   return (
     <div
       ref={displayRef}
