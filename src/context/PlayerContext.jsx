@@ -10,3 +10,5 @@ const PlayerContextProvider = () => {
     </PlayerContext.Provider>
   );
 };
+
+export default PlayerContextProvider;
