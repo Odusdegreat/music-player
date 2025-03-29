@@ -13,7 +13,7 @@ const App = () => {
         <Display />
       </div>
       <Player />
-      <audio preload="auto"></audio>
+      <audio ref={audioRef} preload="auto"></audio>
     </div>
   );
 };
