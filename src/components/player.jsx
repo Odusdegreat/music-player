@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { songsData } from "../assets/assets";
 import { FaCirclePlay } from "react-icons/fa6";
 import { RxTrackNext } from "react-icons/rx";
@@ -12,8 +12,10 @@ import { LuMonitorSpeaker } from "react-icons/lu";
 import { TbVolume } from "react-icons/tb";
 import { CgMiniPlayer } from "react-icons/cg";
 import { MdOutlineZoomOutMap } from "react-icons/md";
+import { PlayerContext } from "../context/PlayerContext";
 
-const player = () => {
+const Player = () => {
+  const { seekBar, seekBg } = useContext(PlayerContext);
   return (
     <div className="h-[10%] bg-black flex justify-between items-center text-white px-4">
       <div className="hidden lg:flex items-center gap-4">
@@ -33,8 +35,14 @@ const player = () => {
         </div>
         <div className="flex items-center gap-5">
           <p>1:20</p>
-          <div className="w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer">
-            <hr className="h-1 border-none w-80 bg-green-800 rounded-full"></hr>
+          <div
+            ref={seekBg}
+            className="w-[60vw] max-w-[500px] bg-gray-300 rounded-full cursor-pointer"
+          >
+            <hr
+              ref={seekBar}
+              className="h-1 border-none w-80 bg-green-800 rounded-full"
+            ></hr>
           </div>
           <p>2:39</p>
         </div>
@@ -53,4 +61,4 @@ const player = () => {
   );
 };
 
-export default player;
+export default Player;
