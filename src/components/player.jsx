@@ -28,11 +28,11 @@ const Player = () => {
       </div>
       <div className="flex flex-col items-center gap-1 m-auto">
         <div className="flex gap-4">
-          <PiShuffleLight size={25} />
-          <RxTrackPrevious size={25} />
-          <FaCirclePlay size={30} />
-          <RxTrackNext size={25} />
-          <SlLoop size={25} />
+          <PiShuffleLight className="w-4 cursor-pointer" size={25} />
+          <RxTrackPrevious className="w-4 cursor-pointer" size={25} />
+          <FaCirclePlay className="w-4 cursor-pointer" size={30} />
+          <RxTrackNext className="w-4 cursor-pointer" size={25} />
+          <SlLoop className="w-4 cursor-pointer" size={25} />
         </div>
         <div className="flex items-center gap-5">
           <p>1:20</p>
