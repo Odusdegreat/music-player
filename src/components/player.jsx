@@ -6,6 +6,7 @@ import { RxTrackPrevious } from "react-icons/rx";
 import { SlLoop } from "react-icons/sl";
 import { PiShuffleLight } from "react-icons/pi";
 import { LuSquarePlay } from "react-icons/lu";
+import { MdOutlinePause } from "react-icons/md";
 import { TbMicrophone2 } from "react-icons/tb";
 import { HiOutlineQueueList } from "react-icons/hi2";
 import { LuMonitorSpeaker } from "react-icons/lu";
@@ -30,7 +31,16 @@ const Player = () => {
         <div className="flex gap-4">
           <PiShuffleLight className="w-4 cursor-pointer" size={25} />
           <RxTrackPrevious className="w-4 cursor-pointer" size={25} />
-          <FaCirclePlay className="w-4 cursor-pointer" size={30} />
+          <FaCirclePlay
+            onClick={play}
+            className="w-4 cursor-pointer"
+            size={30}
+          />
+          <MdOutlinePause
+            onClick={pause}
+            className="w-4 cursor-pointer"
+            size={30}
+          />
           <RxTrackNext className="w-4 cursor-pointer" size={25} />
           <SlLoop className="w-4 cursor-pointer" size={25} />
         </div>
