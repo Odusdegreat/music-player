@@ -31,19 +31,19 @@ const PlayerContextProvider = (props) => {
     audioRef.current.pause();
     setPlayStatus(false);
   };
-
   useEffect(() => {
     setTimeout(() => {
       audioRef.current.ontimeupdate = () => {
-        setTime( currentTime: {
-          second: 0,
-          minute: 0,
-        },
-        totalTime: {
-          second: 0,
-          minute: 0,
-        },
-      }););
+        setTime({
+          currentTime: {
+            second: Math.floor(audioRef.current.currentTime % 60),
+            minute: Math.floor(audioRef.current.currentTime / 60),
+          },
+          totalTime: {
+            second: Math.floor(audioRef.current.duration % 60),
+            minute: Math.floor(audioRef.current.currentTime % 60),
+          },
+        });
       };
     }, 1000);
   }, [audioRef]);
