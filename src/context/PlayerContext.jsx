@@ -6,7 +6,7 @@ export const PlayerContext = createContext();
 const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();
-  const seekBar = useRef;
+  const seekBar = useRef();
   [];
 
   const [track, setTrack] = useState(songsData[0]);

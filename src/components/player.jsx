@@ -13,7 +13,7 @@ import { LuMonitorSpeaker } from "react-icons/lu";
 import { TbVolume } from "react-icons/tb";
 import { CgMiniPlayer } from "react-icons/cg";
 import { MdOutlineZoomOutMap } from "react-icons/md";
-import { PlayerContext } from "../context/PlayerContext";
+import { PlayerContext } from "../context/PlayerContext.jsx";
 
 const Player = () => {
   const { seekBar, seekBg, playStatus, play, pause } =
