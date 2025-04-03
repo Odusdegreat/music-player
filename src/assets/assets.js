@@ -19,6 +19,7 @@ import loop_icon from "./loop.jpeg";
 import travis from "./travis.jpeg";
 import passo from "./passo bem solto.jpeg";
 import fola from "./Fola-Ft-Bella-Shmurda-Who-Does-That-(TrendyBeatz.com).mp3";
+import scott from "./Travis-Scott-4X4-(JustNaija.com).mp3";
 
 export const assets = {
   smile,
@@ -42,6 +43,7 @@ export const assets = {
   travis,
   passo,
   fola,
+  scott,
 };
 export const albumsData = [
   {
@@ -113,6 +115,6 @@ export const songsData = [
     desc: "Travis Scott",
     image: travis,
     duration: "3:10",
-    file:
+    file: scott,
   },
 ];
