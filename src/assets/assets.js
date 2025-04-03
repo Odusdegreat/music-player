@@ -97,7 +97,7 @@ export const songsData = [
     desc: "FOLA, Bella shmurda",
     image: who,
     duration: "2:40",
-    file: atlxs,
+    file: fola,
   },
   {
     id: 1,
@@ -105,7 +105,7 @@ export const songsData = [
     desc: "Atlxs",
     image: passo,
     duration: "1:54",
-    file: fola,
+    file: atlxs,
   },
   {
     id: 2,
@@ -113,5 +113,6 @@ export const songsData = [
     desc: "Travis Scott",
     image: travis,
     duration: "3:10",
+    file:
   },
 ];
