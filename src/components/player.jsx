@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { assets } from "../assets/assets";
+import {} from "../assets/assets";
 import { FaCirclePlay } from "react-icons/fa6";
 import { RxTrackNext } from "react-icons/rx";
 import { RxTrackPrevious } from "react-icons/rx";
@@ -13,7 +13,7 @@ import { LuMonitorSpeaker } from "react-icons/lu";
 import { TbVolume } from "react-icons/tb";
 import { CgMiniPlayer } from "react-icons/cg";
 import { MdOutlineZoomOutMap } from "react-icons/md";
-import { PlayerContext } from "../context/PlayerContext.jsx";
+import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {
   const { track, seekBar, seekBg, playStatus, play, pause, time } =

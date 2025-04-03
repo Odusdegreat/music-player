@@ -95,6 +95,7 @@ export const songsData = [
     desc: "FOLA, Bella shmurda",
     image: who,
     duration: "2:40",
+    file: atlxs,
   },
   {
     id: 1,

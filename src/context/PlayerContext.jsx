@@ -31,6 +31,7 @@ const PlayerContextProvider = (props) => {
     audioRef.current.pause();
     setPlayStatus(false);
   };
+
   useEffect(() => {
     setTimeout(() => {
       audioRef.current.ontimeupdate = () => {
@@ -41,7 +42,7 @@ const PlayerContextProvider = (props) => {
           },
           totalTime: {
             second: Math.floor(audioRef.current.duration % 60),
-            minute: Math.floor(audioRef.current.currentTime % 60),
+            minute: Math.floor(audioRef.current.duration / 60),
           },
         });
       };
