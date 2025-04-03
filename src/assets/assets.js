@@ -18,6 +18,7 @@ import play_icon from "./play.jpeg";
 import loop_icon from "./loop.jpeg";
 import travis from "./travis.jpeg";
 import passo from "./passo bem solto.jpeg";
+import fola from "./Fola-Ft-Bella-Shmurda-Who-Does-That-(TrendyBeatz.com).mp3";
 
 export const assets = {
   smile,
@@ -40,6 +41,7 @@ export const assets = {
   loop_icon,
   travis,
   passo,
+  fola,
 };
 export const albumsData = [
   {
@@ -103,6 +105,7 @@ export const songsData = [
     desc: "Atlxs",
     image: passo,
     duration: "1:54",
+    file: fola,
   },
   {
     id: 2,
