@@ -53,6 +53,8 @@ const PlayerContextProvider = (props) => {
     }
   };
 
+  const seekSong = async () => {};
+
   useEffect(() => {
     setTimeout(() => {
       audioRef.current.ontimeupdate = () => {
