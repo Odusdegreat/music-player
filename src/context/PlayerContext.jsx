@@ -54,7 +54,7 @@ const PlayerContextProvider = (props) => {
   };
 
   const seekSong = async (e) => {
-    console.log(e);
+    audioRef.current.currentTime = e.native;
   };
 
   useEffect(() => {
