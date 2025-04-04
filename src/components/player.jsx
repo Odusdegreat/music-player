@@ -16,8 +16,17 @@ import { MdOutlineZoomOutMap } from "react-icons/md";
 import { PlayerContext } from "../context/PlayerContext";
 
 const Player = () => {
-  const { track, seekBar, seekBg, playStatus, play, pause, time } =
-    useContext(PlayerContext);
+  const {
+    track,
+    seekBar,
+    seekBg,
+    playStatus,
+    play,
+    pause,
+    time,
+    previous,
+    next,
+  } = useContext(PlayerContext);
   return (
     <div className="h-[10%] bg-black flex justify-between items-center text-white px-4">
       <div className="hidden lg:flex items-center gap-4">
@@ -31,7 +40,11 @@ const Player = () => {
         <div className="flex gap-4">
           <PiShuffleLight className="w-4 cursor-pointer" size={25} />
 
-          <RxTrackPrevious className="w-4 cursor-pointer" size={25} />
+          <RxTrackPrevious
+            onClick={previous}
+            className="w-4 cursor-pointer"
+            size={25}
+          />
 
           {playStatus ? (
             <MdOutlinePause
@@ -47,7 +60,11 @@ const Player = () => {
             />
           )}
 
-          <RxTrackNext className="w-4 cursor-pointer" size={25} />
+          <RxTrackNext
+            onClick={next}
+            className="w-4 cursor-pointer"
+            size={25}
+          />
           <SlLoop className="w-4 cursor-pointer" size={25} />
         </div>
         <div className="flex items-center gap-5">

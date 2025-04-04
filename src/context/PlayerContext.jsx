@@ -88,6 +88,8 @@ const PlayerContextProvider = (props) => {
     play,
     pause,
     playWithId,
+    previous,
+    next,
   };
   return (
     <PlayerContext.Provider value={contextValue}>
