@@ -5,11 +5,16 @@ import { CiSearch } from "react-icons/ci";
 import { LuLibraryBig } from "react-icons/lu";
 import { HiOutlinePlus } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 const Sidebar = () => {
+  const navigate = useNavigate;
   return (
     <div className="w-[25%] h-full p-2 flex-col gap-2 text-white hidden lg:flex">
       <div className="bg-[#121212] h-[15%] rounded flex flex-col justify-around">
-        <div className="flex items-center gap-3 pl-8 cursor-pointer">
+        <div
+          onClick={() => navigate("/")}
+          className="flex items-center gap-3 pl-8 cursor-pointer"
+        >
           <GoHome size={25} />
           <p className="font-bold">Home</p>
         </div>
