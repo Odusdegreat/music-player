@@ -10,8 +10,14 @@ export const fetchUserPlaylists = async () => {
   return data.data; // data is nested
 };
 
-export const fetchAlbumInfo = async (albumId) => {
-  const res = await fetch(`https://api.deezer.com/album/${albumId}`);
-  const data = await res.json();
-  return data;
+// src/api/deezerApi.js
+export const fetchAlbumById = async (albumId) => {
+  try {
+    const response = await fetch(`https://api.deezer.com/album/${albumId}`);
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching album:", error);
+    return null;
+  }
 };
