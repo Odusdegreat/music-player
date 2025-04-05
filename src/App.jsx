@@ -10,23 +10,19 @@ import { PlayerContext } from "./context/PlayerContext";
 const App = () => {
   const { audioRef, track } = useContext(PlayerContext);
   return (
-    <Router>
-      {" "}
-      {/* Wrap everything inside Router */}
-      <div className="h-screen bg-black">
-        <div className="h-[90%] flex">
-          <Sidebar />
-          <Display />
-        </div>
-        <Player />
-        <audio ref={audioRef} src={track.file} preload="auto"></audio>
-
-        <Routes>
-          <Route path="/search" element={<Search />} />
-          {/* other routes */}
-        </Routes>
+    <div className="h-screen bg-black">
+      <div className="h-[90%] flex">
+        <Sidebar />
+        <Display />
       </div>
-    </Router>
+      <Player />
+      <audio ref={audioRef} src={track.file} preload="auto"></audio>
+
+      <Routes>
+        <Route path="/search" element={<Search />} />
+        {/* other routes */}
+      </Routes>
+    </div>
   );
 };
 
