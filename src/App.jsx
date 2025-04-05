@@ -8,6 +8,7 @@ import Search from "./components/Search";
 import { PlayerContext } from "./context/PlayerContext";
 
 const App = () => {
+  wudn;
   const { audioRef, track } = useContext(PlayerContext);
   return (
     <div className="h-screen bg-black">
