@@ -3,6 +3,9 @@ import {} from "../assets/assets";
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Search from "./Search";
+
 const NavBar = () => {
   const navigate = useNavigate();
   return (
@@ -38,6 +41,13 @@ const NavBar = () => {
         <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">
           Podcasts
         </p>
+        <Link to="/search" className="text-white hover:text-green-400">
+          Search
+        </Link>
+        <div className="bg-black text-white flex justify-between items-center p-4">
+          <h1 className="text-xl font-bold">🎵 My Music Player</h1>
+          <Search /> {/* Boom! Add the search bar here */}
+        </div>
       </div>
     </>
   );

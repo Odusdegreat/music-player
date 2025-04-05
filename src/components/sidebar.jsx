@@ -1,11 +1,12 @@
 import React from "react";
 import {} from "../assets/assets";
 import { GoHome } from "react-icons/go";
-import { CiSearch } from "react-icons/ci";
+
 import { LuLibraryBig } from "react-icons/lu";
 import { HiOutlinePlus } from "react-icons/hi2";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
+
 const Sidebar = () => {
   const navigate = useNavigate;
   return (
@@ -18,10 +19,7 @@ const Sidebar = () => {
           <GoHome size={25} />
           <p className="font-bold">Home</p>
         </div>
-        <div className="flex items-center gap-3 pl-8 cursor-pointer">
-          <CiSearch size={25} />
-          <p className="font-bold">Search</p>
-        </div>
+        <div className="flex items-center gap-3 pl-8 cursor-pointer"></div>
       </div>
       <div className="bg-[#121212] h-[85%] rounded">
         <div className="p-4 flex items-center justify-between">
