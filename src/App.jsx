@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Search from "./components/Search";
 
 import { PlayerContext } from "./context/PlayerContext";
+
 const App = () => {
   const { audioRef, track } = useContext(PlayerContext);
   return (
@@ -14,12 +15,11 @@ const App = () => {
       </div>
       <Player />
       <audio ref={audioRef} src={track.file} preload="auto"></audio>
+
       <Routes>
         <Route path="/search" element={<Search />} />
         {/* other routes */}
       </Routes>
-
-      <Search />
     </div>
   );
 };
