@@ -25,6 +25,5 @@ const App = () => {
     </div>
   );
 };
-hdjdj;
 
 export default App;
