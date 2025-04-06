@@ -13,7 +13,7 @@ const App = () => {
     <div className="h-screen bg-black">
       <div className="h-[90%] flex">
         <Sidebar />
-        <Display /> dd
+        <Display />
       </div>
       <Player />
       <audio ref={audioRef} src={track.file} preload="auto"></audio>
