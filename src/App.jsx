@@ -14,8 +14,8 @@ const App = () => {
       <div className="h-[90%] flex">
         <Sidebar />
         <Display />
+        <Player />
       </div>
-      <Player />
       <audio ref={audioRef} src={track.file} preload="auto"></audio>
 
       <Routes>
