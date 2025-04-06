@@ -14,9 +14,9 @@ const App = () => {
       <div className="h-[90%] flex">
         <Sidebar />
         <Display />
-        <Player />
       </div>
       <audio ref={audioRef} src={track.file} preload="auto"></audio>
+      <Player />
 
       <Routes>
         <Route path="/search" element={<Search />} />
