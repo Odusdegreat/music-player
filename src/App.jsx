@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
-import Sidebar from "./components/Sidebar";
-import Player from "./components/Player";
-import Display from "./components/Display";
+import Sidebar from "./components/Sidebar.jsx";
+import Player from "./components/Player.jsx";
+import Display from "./components/Display.jsx";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Search from "./components/Search";
-
+import Search from "./components/Search.jsx";
 import { PlayerContext } from "./context/PlayerContext";
 
 const App = () => {
@@ -15,8 +14,8 @@ const App = () => {
         <Sidebar />
         <Display />
       </div>
-      <audio ref={audioRef} src={track.file} preload="auto"></audio>
       <Player />
+      <audio ref={audioRef} src={track.file} preload="auto"></audio>
 
       <Routes>
         <Route path="/search" element={<Search />} />
